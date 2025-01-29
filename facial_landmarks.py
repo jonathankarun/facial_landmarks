@@ -1,7 +1,7 @@
 import cv2
 import dlib
 
-predictor = dlib.shape_predictor("/Users/jonathankarun/Documents/projects/shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("File_Path")
 detector = dlib.get_frontal_face_detector()
 
 capture = cv2.VideoCapture(1) 
