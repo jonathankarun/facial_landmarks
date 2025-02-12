@@ -1,9 +1,9 @@
+#Imports
 import cv2
 import dlib
 
 predictor = dlib.shape_predictor("File_Path")
 detector = dlib.get_frontal_face_detector()
-
 capture = cv2.VideoCapture(1) 
 
 while True:
